@@ -112,7 +112,7 @@ a {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: url("assets/Background-Image.png");
+  background-image: url("assets/road-sunset.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -469,7 +469,7 @@ h3 {
 .contact-section {
   background:
     linear-gradient(90deg, rgba(7, 19, 49, 0.94), rgba(101, 9, 21, 0.88)),
-    url("assets/Background-Image.png");
+    url("assets/road-sunset.png");
   background-size: cover;
   background-position: center;
   color: var(--white);
