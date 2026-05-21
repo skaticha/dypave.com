@@ -112,7 +112,7 @@ a {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: linear-gradient(90deg, rgba(7, 19, 49, 0.92), rgba(7, 19, 49, 0.72), rgba(7, 19, 49, 0.18)), url("assets/hero-road.svg");
+  background-image: linear-gradient(90deg, rgba(7, 19, 49, 0.92), rgba(7, 19, 49, 0.72), rgba(7, 19, 49, 0.18)), url("assets/Background-Image.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -469,7 +469,7 @@ h3 {
 .contact-section {
   background:
     linear-gradient(90deg, rgba(7, 19, 49, 0.94), rgba(101, 9, 21, 0.88)),
-    url("assets/hero-road.svg");
+    url("assets/Background-Image.png");
   background-size: cover;
   background-position: center;
   color: var(--white);
