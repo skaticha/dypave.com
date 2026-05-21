@@ -1,260 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DynaPave Consultants, LLC | Dypave Pavement Engineering Experts</title>
-  <meta name="description" content="DynaPave Consultants, LLC provides specialized pavement engineering consulting in structural evaluation, TSDD/FWD analysis, pavement asset management, QA/QC, and expert technical review." />
-  <meta name="keywords" content="DynaPave, Dypave, pavement engineering, pavement consulting, TSDD, FWD, pavement management, structural evaluation" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a href="#home" class="brand" aria-label="DynaPave Consultants homepage">
-        <img src="assets/dynapave-logo.png" alt="DynaPave Consultants, LLC logo" />
-      </a>
-      <button class="menu-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('nav-open')">☰</button>
-      <nav class="main-nav">
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#team">Our Team</a>
-        <a href="#expertise">Expertise</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="header-cta" href="#contact">Contact Us</a>
-    </div>
-  </header>
+# DynaPave Consultants, LLC Website
 
-  <main id="home">
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">Pavement engineering advisory services</p>
-        <h1>Paving the way to <span>safer, smarter & more resilient roads.</span></h1>
-        <p class="hero-text">
-          DynaPave Consultants, LLC provides specialized pavement engineering advisory services
-          focused on structural evaluation, pavement performance, non-destructive testing, and asset management.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#services">Our Services</a>
-          <a class="button secondary" href="#contact">Contact Us</a>
-        </div>
-      </div>
-    </section>
+Static website ready for GitHub Pages hosting.
 
-    <section class="feature-bar">
-      <div class="container feature-grid">
-        <article class="feature">
-          <div class="feature-icon road">⌁</div>
-          <div>
-            <h3>Pavement Engineering</h3>
-            <p>Evaluation, design, rehabilitation, and performance-focused technical guidance.</p>
-          </div>
-        </article>
-        <article class="feature">
-          <div class="feature-icon chart">↗</div>
-          <div>
-            <h3>Data-Driven Solutions</h3>
-            <p>Advanced testing, analytics, modeling, and interpretation for informed decisions.</p>
-          </div>
-        </article>
-        <article class="feature">
-          <div class="feature-icon shield">◇</div>
-          <div>
-            <h3>Safety & Sustainability</h3>
-            <p>Improving roadway safety, resilience, and service life through applied innovation.</p>
-          </div>
-        </article>
-        <article class="feature">
-          <div class="feature-icon team">●</div>
-          <div>
-            <h3>Collaborative Partnership</h3>
-            <p>Working closely with agencies and clients to deliver practical, lasting value.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+## Files
 
-    <section id="about" class="section intro-section">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow dark">About DynaPave</p>
-          <h2>Independent technical advice grounded in decades of pavement research and practice.</h2>
-        </div>
-        <div class="lead-copy">
-          <p>
-            DynaPave Consultants, LLC supports public agencies, consulting firms, technology providers,
-            contractors, and legal teams facing complex pavement engineering decisions.
-          </p>
-          <p>
-            Our work emphasizes practical engineering judgment, defensible interpretation of pavement data,
-            and modern tools for pavement structural evaluation and network-level asset management.
-          </p>
-          <p class="note">
-            DynaPave Consultants, LLC is an independent consulting company. Any university affiliations
-            of individual consultants are provided for identification only.
-          </p>
-        </div>
-      </div>
-    </section>
+- `index.html`
+- `styles.css`
+- `assets/` folder containing logo, partner photos, and hero SVG background
 
-    <section id="services" class="section services-section">
-      <div class="container">
-        <p class="eyebrow dark center">Services</p>
-        <h2 class="centered-title">High-value advisory support for pavement engineering decisions.</h2>
-        <div class="service-grid">
-          <article class="service-card">
-            <h3>Pavement Structural Evaluation</h3>
-            <p>Interpretation of pavement structural capacity, deflection measurements, layer behavior, and rehabilitation implications.</p>
-          </article>
-          <article class="service-card">
-            <h3>TSDD/FWD Advisory</h3>
-            <p>Independent guidance on traffic-speed deflection devices, falling weight deflectometer data, verification, validation, and implementation.</p>
-          </article>
-          <article class="service-card">
-            <h3>QA/QC and Validation</h3>
-            <p>Review and development of QA procedures, acceptance criteria, repeatability checks, and data screening workflows.</p>
-          </article>
-          <article class="service-card">
-            <h3>Pavement Asset Management</h3>
-            <p>Support for network-level performance modeling, data integration, work programming, and infrastructure investment decisions.</p>
-          </article>
-          <article class="service-card">
-            <h3>Forensic and Expert Review</h3>
-            <p>Objective technical review for pavement failures, construction concerns, structural deficiencies, and dispute support.</p>
-          </article>
-          <article class="service-card">
-            <h3>Training and Workshops</h3>
-            <p>Customized training for agencies and firms on pavement evaluation, deflection testing, QA/QC, and technical interpretation.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+## Upload to GitHub
 
-    <section id="team" class="section team-section">
-      <div class="container">
-        <p class="eyebrow dark center">Our Partners</p>
-        <h2 class="centered-title">A team of recognized experts in pavement engineering and infrastructure solutions.</h2>
+1. Open your GitHub repository.
+2. Upload all files and the `assets` folder.
+3. Commit changes.
+4. GitHub Pages should automatically redeploy.
 
-        <div class="team-grid">
-          <article class="profile-card">
-            <img src="assets/gerardo-flintsch.png" alt="Gerardo W. Flintsch" />
-            <div class="profile-copy">
-              <h3>Gerardo W. Flintsch, Ph.D., P.E.</h3>
-              <p class="role">Co-Founder & Partner</p>
-              <p>
-                Internationally recognized pavement and infrastructure expert specializing in asset management,
-                infrastructure sustainability, vehicle-road interaction, and pavement engineering. Dr. Flintsch has led
-                major national pooled-fund efforts and has served as PI/Co-PI on more than $48 million in research funding.
-              </p>
-            </div>
-          </article>
+## Important edits
 
-          <article class="profile-card">
-            <img src="assets/ernesto-urbaez.png" alt="Ernesto Urbaez" />
-            <div class="profile-copy">
-              <h3>Ernesto Urbaez, Ph.D.</h3>
-              <p class="role">Co-Founder & Partner</p>
-              <p>
-                Pavement evaluation and asset management specialist with more than 30 years of international experience
-                in pavement design, rehabilitation, forensic investigations, non-destructive testing, network modeling,
-                and road asset valuation.
-              </p>
-            </div>
-          </article>
+The public contact email is currently:
 
-          <article class="profile-card">
-            <img src="assets/samer-katicha.png" alt="Samer W. Katicha" />
-            <div class="profile-copy">
-              <h3>Samer W. Katicha, Ph.D.</h3>
-              <p class="role">Co-Founder & Partner</p>
-              <p>
-                Pavement structural evaluation and data analytics expert specializing in TSDD technologies, FWD/TSDD
-                interpretation, pavement management, infrastructure health assessment, and safety-performance modeling.
-                Dr. Katicha has led and supported major national efforts in traffic-speed deflection testing.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+`info@dypave.com`
 
-    <section id="expertise" class="stats-band">
-      <div class="container stats-grid">
-        <div class="stat">
-          <strong>80+</strong>
-          <span>Years of combined pavement engineering experience</span>
-        </div>
-        <div class="stat">
-          <strong>$70M+</strong>
-          <span>In combined research and project funding experience</span>
-        </div>
-        <div class="stat">
-          <strong>100+</strong>
-          <span>Technical projects, studies, and applied research efforts</span>
-        </div>
-        <div class="stat">
-          <strong>Trusted</strong>
-          <span>Partner for transportation agencies and industry leaders</span>
-        </div>
-      </div>
-    </section>
+If needed, change it in `index.html`.
 
-    <section class="section expertise-section">
-      <div class="container">
-        <p class="eyebrow dark center">Technical Focus</p>
-        <div class="pill-list">
-          <span>Pavement Structural Evaluation</span>
-          <span>TSDD</span>
-          <span>FWD</span>
-          <span>Non-Destructive Testing</span>
-          <span>Network-Level Analysis</span>
-          <span>Asset Management</span>
-          <span>Pavement Design</span>
-          <span>QA/QC</span>
-          <span>Validation Procedures</span>
-          <span>Forensic Review</span>
-          <span>Training</span>
-          <span>Transportation Safety</span>
-        </div>
-      </div>
-    </section>
+## Notes
 
-    <section id="contact" class="section contact-section">
-      <div class="container contact-card">
-        <p class="eyebrow light">Contact</p>
-        <h2>Let’s discuss your pavement engineering challenge.</h2>
-        <p>
-          For consulting inquiries, technical reviews, workshops, expert advisory support, or project discussions,
-          contact DynaPave Consultants, LLC.
-        </p>
-        <a class="contact-email" href="mailto:info@dypave.com">info@dypave.com</a>
-        <a class="button primary contact-button" href="mailto:info@dypave.com">Send an Email</a>
-      </div>
-    </section>
-  </main>
+This website uses the DynaPave logo colors:
+- Maroon
+- Orange
+- Navy
+- White
 
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <div>
-        <img src="assets/dynapave-logo.png" alt="DynaPave Consultants, LLC logo" />
-        <p>Specialized pavement engineering advisory services.</p>
-      </div>
-      <div>
-        <p><strong>DynaPave Consultants, LLC</strong></p>
-        <p><a href="mailto:info@dypave.com">info@dypave.com</a></p>
-        <p><a href="https://dypave.com">dypave.com</a></p>
-      </div>
-      <div>
-        <p>&copy; <span id="year"></span> DynaPave Consultants, LLC. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+The site is fully static and does not require a paid hosting service.
