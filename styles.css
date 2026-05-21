@@ -112,7 +112,7 @@ a {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: url("assets/hero-road.svg");
+  background-image: linear-gradient(90deg, rgba(7, 19, 49, 0.92), rgba(7, 19, 49, 0.72), rgba(7, 19, 49, 0.18)), url("assets/hero-road.svg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
