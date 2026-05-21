@@ -252,6 +252,12 @@ h3 {
   font-weight: 900;
 }
 
+.feature-icon img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
 .feature-icon.road {
   background: var(--maroon);
 }
