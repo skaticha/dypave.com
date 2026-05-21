@@ -360,8 +360,10 @@ h3 {
 
 .profile-card {
   display: flex;
-  grid-template-columns: column;
-  gap: 28px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
   padding: 24px;
   border: 1px solid rgba(16, 36, 90, 0.14);
   border-radius: 22px;
@@ -371,6 +373,7 @@ h3 {
 
 .profile-card img {
   width: 100%;
+  max-width: 260px;
   height: 320px;
   object-fit: cover;
   object-position: top;
